@@ -1,4 +1,4 @@
-# 🏦 rose-atmrobbery
+# 🏦 ROSE ATM Robbery
 
 A highly configurable and immersive ATM Robbery script for FiveM.  
 This script supports QBCore, QBX, and ESX frameworks and includes advanced features like minigames, animation, item checks, and multi-framework inventory support.
