@@ -32,33 +32,39 @@ This script supports QBCore, QBX, and ESX frameworks and includes advanced featu
 
 Example:
 ```lua
-Config.ReqItems = {
-  phone = "phone",
-  microsdcard = "microsdcard"
+Config.Framework = "qb"             -- qb, qbx, esx
+Config.Inventory = "ox"             -- "qb", "ox"
+Config.Target = "ox"                -- "qb", "ox"
+Config.Dispatch = "qb"              -- "qb", "ps"
+
+Config.MinPoliceReq = 1             -- Changeable
+
+Config.Jobs = {                     -- If you have another government job, you add here
+    "police",
 }
 
-Config.Durations = {
-  installMicroSDCard = 4000,
-  pinCrackerDuration = 10000,
-  waitSystemDown = 6000,
-  grabMoney = 4000,
+Config.ReqItems = {                 -- The "itemname" field checks whether such an item exists in the selected inventory(Config.Inventory).
+    phone = "phone",
+    microsdcard = "microsdcard"
 }
 
 Config.Rewards = {
-  min = 500,
-  max = 1500,
+    min = 300,
+    max = 1100
 }
 
-Config.MinPoliceReq = 1
-Config.Target = "ox" -- or "qb"
-Config.Inventory = "ox" -- or "qb"
-Config.Jobs = { "police" }
+Config.Durations = {                -- Second * 1000
+    pinCrackerDuration      = 30,   -- Minigame duration
+    installMicroSDCard      = 5 * 1000,
+    waitSystemDown          = 10 * 1000,
+    grabMoney               = 5 * 1000,
+}
 ```
 
 ## 🚀 Installation
 
-Install [ox_lib](https://github.com/overextended/ox_lib)
-Install [bd-minigames](https://github.com/baggeddev/bd-minigames)
+- Install [ox_lib](https://github.com/overextended/ox_lib)
+- Install [bd-minigames](https://github.com/baggeddev/bd-minigames)
 
 1. Extract the `rose-atmrobbery` folder into your server's `resources` directory.
 2. Extract the `ox_lib` folder into your server's `resources` directory.
