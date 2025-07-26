@@ -1,0 +1,7 @@
+["microsdcard"] = {
+	label = "Micro SD Card",
+	weight = 1,
+	stack = true,
+	close = true,
+	description = "It has some kind of software installed. It's disposable.",
+},
