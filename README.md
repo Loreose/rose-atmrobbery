@@ -64,7 +64,7 @@ Config.Durations = {                -- Second * 1000
 ## 🚀 Installation
 
 - Install [ox_lib](https://github.com/overextended/ox_lib)
-- Install [bd-minigames](https://github.com/kristiyanpts/bd-minigames))
+- Install [bd-minigames](https://github.com/kristiyanpts/bd-minigames)
 
 1. Extract the `rose-atmrobbery` folder into your server's `resources` directory.
 2. Extract the `ox_lib` folder into your server's `resources` directory.
