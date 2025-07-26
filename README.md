@@ -21,7 +21,7 @@ This script supports QBCore, QBX, and ESX frameworks and includes advanced featu
 
 ## 📂 Dependencies
 
-- [`bd-minigames`](https://github.com/baggeddev/bd-minigames)
+- [`bd-minigames`](https://github.com/kristiyanpts/bd-minigames)
 - [`ox_inventory`](https://github.com/overextended/ox_inventory) or [`qb-inventory`](https://github.com/qbcore-framework/qb-inventory)
 - [`ox_target`](https://github.com/overextended/ox_target) or [`qb-target`](https://github.com/qbcore-framework/qb-target)
 - Optional: [`ps-dispatch`](https://github.com/Project-Sloth/ps-dispatch)
